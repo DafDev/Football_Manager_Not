@@ -1,6 +1,19 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+using Microsoft.AspNetCore.Builder;
 
-app.MapGet("/", () => "Hello World!");
+var builder = WebApplication.CreateBuilder(args);
+//Registering services and adding services to DI controller
+{
+    var services = builder.Services;
+    services.AddControllers();
+}
+
+var app = builder.Build();
+// Configure Httprequest pipeline
+{
+    app.MapControllers();
+}
+
+app.MapGet("/", () => "This is the begining");
+
 
 app.Run();
