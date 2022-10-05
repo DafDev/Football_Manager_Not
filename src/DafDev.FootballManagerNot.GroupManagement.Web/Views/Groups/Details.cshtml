@@ -1,0 +1,13 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Group
+
+<h2>Details</h2>
+<form asp-controller="Groups" asp-action="Edit" asp-route-id=@Model.Id method="post">
+    <label asp-for="Name">Name</label>
+    <input asp-for="Name"/>
+    <button type ="submit">Save</button>
+</form>
+
+<p>group id: @Model.Id; group name: @Model.Name </p>

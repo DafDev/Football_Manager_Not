@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 //Registering services and adding services to DI controller
 {
     var services = builder.Services;
-    services.AddControllers();
+    services.AddControllersWithViews();
 }
 
 var app = builder.Build();
