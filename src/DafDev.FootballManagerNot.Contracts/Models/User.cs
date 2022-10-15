@@ -1,4 +1,4 @@
-﻿namespace DafDev.FootballManagerNot.GroupManagement.Web.Models;
+﻿namespace DafDev.FootballManagerNot.GroupManagement.Contracts.Models;
 
 public class User
 {

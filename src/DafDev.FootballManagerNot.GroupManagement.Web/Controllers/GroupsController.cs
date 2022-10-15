@@ -1,4 +1,4 @@
-﻿using DafDev.FootballManagerNot.GroupManagement.Web.Models;
+﻿using DafDev.FootballManagerNot.GroupManagement.Contracts.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
 

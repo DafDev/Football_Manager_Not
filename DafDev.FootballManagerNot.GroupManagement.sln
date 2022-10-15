@@ -5,19 +5,21 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E0E571EA-824E-4395-ABAC-412E9A5C14AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DafDev.FootballManagerNot.GroupManagement.Web", "src\DafDev.FootballManagerNot.GroupManagement.Web\DafDev.FootballManagerNot.GroupManagement.Web.csproj", "{EE2EFAA7-7736-46C3-91CD-95885C3E53AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DafDev.FootballManagerNot.GroupManagement.Web", "src\DafDev.FootballManagerNot.GroupManagement.Web\DafDev.FootballManagerNot.GroupManagement.Web.csproj", "{EE2EFAA7-7736-46C3-91CD-95885C3E53AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DafDev.FootballManagerNot.Contracts", "src\DafDev.FootballManagerNot.Contracts\DafDev.FootballManagerNot.Contracts.csproj", "{7B155445-CD21-46A7-A251-E1B31FA31610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DafDev.FootballManagerNot.GroupManagement.Contracts", "src\DafDev.FootballManagerNot.Contracts\DafDev.FootballManagerNot.GroupManagement.Contracts.csproj", "{7B155445-CD21-46A7-A251-E1B31FA31610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DafDev.FootballManagerNot.Business", "src\DafDev.FootballManagerNot.Business\DafDev.FootballManagerNot.Business.csproj", "{0FCB82A4-ADB8-4857-AFC5-4E161304D572}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DafDev.FootballManagerNot.GroupManagement.Business", "src\DafDev.FootballManagerNot.Business\DafDev.FootballManagerNot.GroupManagement.Business.csproj", "{0FCB82A4-ADB8-4857-AFC5-4E161304D572}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1DE3D73F-4DB0-4B2C-9717-41E9D8EAA432}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EE2EFAA7-7736-46C3-91CD-95885C3E53AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -33,9 +35,15 @@ Global
 		{0FCB82A4-ADB8-4857-AFC5-4E161304D572}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FCB82A4-ADB8-4857-AFC5-4E161304D572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EE2EFAA7-7736-46C3-91CD-95885C3E53AF} = {E0E571EA-824E-4395-ABAC-412E9A5C14AF}
 		{7B155445-CD21-46A7-A251-E1B31FA31610} = {E0E571EA-824E-4395-ABAC-412E9A5C14AF}
 		{0FCB82A4-ADB8-4857-AFC5-4E161304D572} = {E0E571EA-824E-4395-ABAC-412E9A5C14AF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC7EEEFF-F923-4D7B-9D7E-D029E9BBA821}
 	EndGlobalSection
 EndGlobal

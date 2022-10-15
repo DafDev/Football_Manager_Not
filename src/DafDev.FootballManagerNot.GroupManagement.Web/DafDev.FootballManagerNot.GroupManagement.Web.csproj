@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DafDev.FootballManagerNot.Contracts\DafDev.FootballManagerNot.GroupManagement.Contracts.csproj" />
+  </ItemGroup>
+
 </Project>
