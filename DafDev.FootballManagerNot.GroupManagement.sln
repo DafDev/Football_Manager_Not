@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E0E571EA-824
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DafDev.FootballManagerNot.GroupManagement.Web", "src\DafDev.FootballManagerNot.GroupManagement.Web\DafDev.FootballManagerNot.GroupManagement.Web.csproj", "{EE2EFAA7-7736-46C3-91CD-95885C3E53AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DafDev.FootballManagerNot.Contracts", "src\DafDev.FootballManagerNot.Contracts\DafDev.FootballManagerNot.Contracts.csproj", "{7B155445-CD21-46A7-A251-E1B31FA31610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DafDev.FootballManagerNot.Business", "src\DafDev.FootballManagerNot.Business\DafDev.FootballManagerNot.Business.csproj", "{0FCB82A4-ADB8-4857-AFC5-4E161304D572}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,18 @@ Global
 		{EE2EFAA7-7736-46C3-91CD-95885C3E53AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE2EFAA7-7736-46C3-91CD-95885C3E53AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE2EFAA7-7736-46C3-91CD-95885C3E53AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B155445-CD21-46A7-A251-E1B31FA31610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B155445-CD21-46A7-A251-E1B31FA31610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B155445-CD21-46A7-A251-E1B31FA31610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B155445-CD21-46A7-A251-E1B31FA31610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FCB82A4-ADB8-4857-AFC5-4E161304D572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FCB82A4-ADB8-4857-AFC5-4E161304D572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FCB82A4-ADB8-4857-AFC5-4E161304D572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FCB82A4-ADB8-4857-AFC5-4E161304D572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EE2EFAA7-7736-46C3-91CD-95885C3E53AF} = {E0E571EA-824E-4395-ABAC-412E9A5C14AF}
+		{7B155445-CD21-46A7-A251-E1B31FA31610} = {E0E571EA-824E-4395-ABAC-412E9A5C14AF}
+		{0FCB82A4-ADB8-4857-AFC5-4E161304D572} = {E0E571EA-824E-4395-ABAC-412E9A5C14AF}
 	EndGlobalSection
 EndGlobal
