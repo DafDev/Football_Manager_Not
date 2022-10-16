@@ -1,10 +1,4 @@
-﻿using DafDev.FootballManagerNot.GroupManagement.Contracts.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using DafDev.FootballManagerNot.GroupManagement.Contracts.Models;
 namespace DafDev.FootballManagerNot.GroupManagement.Contracts.Services;
 
 public interface IGroupService
@@ -14,4 +8,5 @@ public interface IGroupService
     Group? GetByName(string name);
     Group? Update(Group group);
     Group Add(Group group);
+    bool Delete(Group group);
 }

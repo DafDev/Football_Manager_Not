@@ -1,4 +1,4 @@
-﻿using DafDev.FootballManagerNot.GroupManagement.Contracts.Models;
+using DafDev.FootballManagerNot.GroupManagement.Contracts.Models;
 using DafDev.FootballManagerNot.GroupManagement.Contracts.Services;
 
 namespace DafDev.FootballManagerNot.Business.Services;
@@ -24,10 +24,17 @@ public class InMemoryGroupService : IGroupService
     public Group? Update(Group group)
     {
         var toUpdate = GetById(group.Id);
-        if(toUpdate != null)
-            toUpdate.Name = group.Name;
 
+        if(toUpdate == null)
+            return null;
+
+        toUpdate.Name = group.Name;
 
         return toUpdate;
+    }
+
+    public bool Delete(Group group)
+    {
+        throw new NotImplementedException();
     }
 }

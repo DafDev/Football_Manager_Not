@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DafDev.FootballManagerNot.Business\DafDev.FootballManagerNot.GroupManagement.Business.csproj" />
     <ProjectReference Include="..\DafDev.FootballManagerNot.Contracts\DafDev.FootballManagerNot.GroupManagement.Contracts.csproj" />
   </ItemGroup>
 
