@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 {
     var services = builder.Services;
     services.AddControllersWithViews();
+    services.AddBusiness();
 }
 
 var app = builder.Build();
